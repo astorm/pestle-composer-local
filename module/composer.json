@@ -1,0 +1,16 @@
+{
+    "name": "pulsestorm/hello-local-package",
+    "description": "A simple package to show how you can install local modules.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Pulsestorm\\Hellocomposer\\": "src/"
+        }
+    }
+}
